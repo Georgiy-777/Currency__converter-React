@@ -1,0 +1,39 @@
+.group{
+    display: flex;
+    justify-content: space-between;
+    background: #335;
+    width: 320px;
+    margin: 0 auto 20px;
+    display: grid;
+    grid-template-columns: 130px 85px;
+    border-radius: 15px;
+    padding: 10px;
+}
+input,select{
+    background: none;
+    border:0;
+    color:#fff;
+    font-size: 25px;
+    width: 100%;
+    font-weight: bold;
+
+}
+input{
+    /*padding-left: 15px;*/
+}
+select{
+    /*padding: 15px 5px;*/
+    outline: none;
+
+}
+option {
+    scrollbar-arrow-color: white;
+    background:  #333355;
+    color: #fff;
+opacity: .4;
+    font-weight: normal;
+    display: block;
+    white-space: nowrap;
+    min-height: 1.2em;
+    padding: 2px 2px 2px;
+}
